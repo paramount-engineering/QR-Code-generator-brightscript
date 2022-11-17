@@ -1,14 +1,6 @@
-# QR-Code-generator-brightscript
+MIT License
 
-## Introduction:
-
-With this Library, adding a QR code to your Roku app is a simple as including this in your xml file: 
-
-\<qrCode text="https://www.paramountplus.com/" />
-
-## License
-
-Copyright (c) 2022 Paramount (MIT License)
+Copyright (c) 2022 Paramount
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -27,7 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-## Attribution
-
-This work, ["QR-Code-generator-brightscript"](https://github.com/paramount-engineering/QR-Code-generator-brightscript), is a derivative of ["QR Code generator"](https://github.com/nayuki/QR-Code-generator) by [Project Nayuki](https://www.nayuki.io/page/qr-code-generator-library), used under [MIT](https://choosealicense.com/licenses/mit/). ["QR-Code-generator-brightscript"](https://github.com/paramount-engineering/QR-Code-generator-brightscript) is licensed under [MIT](https://choosealicense.com/licenses/mit/) BY [Paramount](https://www.paramount.com).

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="SampleScene" extends="Scene">
+  <script type="text/brightscript" uri="./sampleScene.brs" />
+  <children>
+    <LayoutGroup layoutDirection="vert" vertAlignment="center" horizAlignment="center" itemSpacings="[10]" translation="[640,360]">
+      <LayoutGroup layoutDirection="horiz" vertAlignment="center" horizAlignment="center" itemSpacings="[10]">
+        <qrCode text="https://www.paramountplus.com/" />
+        <qrCode text="123" />
+        <qrCode text="https://github.com/paramount-engineering/QR-Code-generator-brightscript" />
+        <qrCode text="ABC" />
+        <qrCode text="https://www.nayuki.io/page/qr-code-generator-library" />
+      </LayoutGroup>
+      <Label text="QR Code Generator" />
+      <Label text="Brightscript" />
+    </LayoutGroup>
+  </children>
+</component>
