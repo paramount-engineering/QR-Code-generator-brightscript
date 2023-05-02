@@ -62,13 +62,13 @@ function slice(array as object, start = 0 as integer, finish = 0 as integer) as 
     if (start < 0) then
         start += size
     end if
-    if (finish = 0 or finish > size) then
-        finish = size
+    if (finish = 0 or finish >= size) then
+        finish = size + 1
     else if (finish < 0) then
         finish += size
     end if
     new = []
-    for x = start to finish
+    for x = start to finish - 1
         new.push(array[x])
     next
     return new
